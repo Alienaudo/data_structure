@@ -1,0 +1,50 @@
+# Compiled binaries and executables
+*.exe
+*.out
+*.elf
+*.bin
+
+# Object files
+*.o
+*.obj
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Temporary files
+*~
+*.bak
+*.swp
+*.tmp
+*.log
+
+# Build directories
+build/
+bin/
+obj/
+Debug/
+Release/
+
+# IDE-specific files (e.g., Visual Studio Code, Eclipse, Vim)
+.vscode/
+.project
+.cproject
+.settings/
+tags
+Session.vim
+Sessionx.vim
+
+# Other common files to ignore
+.DS_Store # macOS specific
+Thumbs.db # Windows specific
