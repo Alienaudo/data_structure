@@ -22,7 +22,7 @@ int size(LinkedList* queue);
 bool isEmpty(LinkedList* queue);
 int peek(LinkedList* queue, bool* status);
 void add(LinkedList* queue, int value);
-int remove(LinkedList* queue, bool* status);
+int removeItem(LinkedList* queue, bool* status);
 void destroyLinkedList(LinkedList* queue);
 
 #endif

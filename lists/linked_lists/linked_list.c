@@ -59,7 +59,7 @@ void add(LinkedList* list, int value)
   return;
 };
 
-int remove(LinkedList* list, bool* status)
+int removeItem(LinkedList* list, bool* status)
 {
   if (isEmpty(list))
   {
